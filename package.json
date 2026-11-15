@@ -1,0 +1,12 @@
+{
+  "name": "hausabench-rlhf",
+  "version": "1.0.0",
+  "description": "Commercial Hausa-English RLHF preference dataset, safety evaluator, and x402 / MCP server",
+  "main": "src/mcp-server.js",
+  "scripts": {
+    "test": "node tests/hausabench.test.js",
+    "mcp": "node src/mcp-server.js"
+  },
+  "author": "Huzaifa Ahmed <khuxaiphahmad@gmail.com>",
+  "license": "CC-BY-NC-4.0"
+}
